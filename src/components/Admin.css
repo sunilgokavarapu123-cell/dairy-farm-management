@@ -1,0 +1,122 @@
+/* Admin Panel Styles */
+.admin-panel-container {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 2.5rem 2rem;
+  background: #f9f9fb;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.admin-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+  letter-spacing: 1px;
+}
+
+.admin-subtitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #4a5568;
+}
+
+.admin-table-wrapper {
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  margin-bottom: 1.5rem;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.admin-table th, .admin-table td {
+  padding: 0.85rem 1.2rem;
+  text-align: left;
+}
+
+.admin-table th {
+  background: #f1f5f9;
+  color: #374151;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.admin-table tr {
+  transition: background 0.2s;
+}
+
+.admin-table tr:hover {
+  background: #f7fafc;
+}
+
+.admin-action-btn {
+  padding: 0.45rem 1.1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.98rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.promote-btn {
+  background: #2563eb;
+  color: #fff;
+}
+.promote-btn:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.delete-btn {
+  background: #f87171;
+  color: #fff;
+}
+.delete-btn:hover:not(:disabled) {
+  background: #dc2626;
+}
+
+.admin-action-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 0.25em 0.7em;
+  border-radius: 12px;
+  font-size: 0.95em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.role-admin {
+  background: #dbeafe;
+  color: #2563eb;
+}
+.role-user {
+  background: #fef9c3;
+  color: #b45309;
+}
+
+.admin-loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #2563eb;
+  margin-top: 3rem;
+}
+
+.admin-error, .admin-error-message {
+  color: #dc2626;
+  text-align: center;
+  margin: 1.5rem 0 0.5rem 0;
+  font-weight: 500;
+  min-height: 24px;
+}
