@@ -169,14 +169,6 @@ const Login = () => {
           </p>
         </div>
 
-        <div className="demo-credentials">
-          <div className="demo-info">
-            <h4>Demo Account (for testing)</h4>
-            <p><strong>Email:</strong> demo@example.com</p>
-            <p><strong>Password:</strong> demo123</p>
-            <small>Note: Create your own account for full functionality</small>
-          </div>
-        </div>
       </div>
     </div>
   );
